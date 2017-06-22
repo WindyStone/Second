@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/RightInAnim</item>
+    </style>
+
+    <!-- 通用Activity 切换动画 -->
+    <style name="RightInAnim">
+        <item name="android:activityOpenExitAnimation">@anim/activity_open_right_out</item>
+        <item name="android:activityOpenEnterAnimation">@anim/activity_open_right_in</item>
+    </style>
+
+</resources>
